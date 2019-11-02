@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arithmetic.iml" filepath="$PROJECT_DIR$/arithmetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../yguard/yguard.iml" filepath="$PROJECT_DIR$/../../yguard/yguard.iml" />
+    </modules>
+  </component>
+</project>
