@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="" />
+    <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/stack/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/附件1-国网四川信通公司2019年业务平台中间件运维清单.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/META-INF/arithmetic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/LoopQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/stack/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/LoopQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/bean/User.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +44,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SobCmCWwDeraO8r6Ri1VtcW6rT" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/java/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -34,7 +60,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java/test" />
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -104,32 +135,49 @@
       <workItem from="1572484474495" duration="171000" />
       <workItem from="1572594766044" duration="4570000" />
       <workItem from="1572675106874" duration="482000" />
+      <workItem from="1572685366568" duration="2959000" />
+      <workItem from="1572702458976" duration="2584000" />
+      <workItem from="1572792685522" duration="824000" />
+      <workItem from="1572855626807" duration="2090000" />
+      <workItem from="1572914303734" duration="247000" />
+      <workItem from="1572919980145" duration="3066000" />
+      <workItem from="1572923128433" duration="4000" />
+      <workItem from="1572935719033" duration="4611000" />
+      <workItem from="1573000553083" duration="1322000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/main/Array.java</url>
+          <url>file://$PROJECT_DIR$/src/java/main/array/Array.java</url>
           <line>36</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/main/HelloWord.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/main/LoopQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/java/main/queue/LoopQueue.java</url>
           <line>70</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/main/LoopQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/java/main/queue/LoopQueue.java</url>
           <line>84</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>

@@ -1,4 +1,4 @@
-package main;
+package main.bean;
 
 /**
  * Created with IDEA

@@ -1,7 +1,20 @@
 package main;
 
+import main.queue.LinkekListQueue;
+import main.queue.Queue;
+import main.stack.LinkedListStack;
+import main.stack.Stack;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+import java.awt.print.Book;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created with IDEA
@@ -10,7 +23,7 @@ import java.util.LinkedList;
  * Time: 3:20 下午
  */
 public class HelloWord {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        Array<Integer> array = new Array<>();
 //        for (int i = 0; i < 20; i++) {
 //            array.add(i,i);
@@ -22,7 +35,7 @@ public class HelloWord {
 //        new ArrayList<>();
 //        System.out.println(array);
 //
-//        ArrayStack<Integer> arrayStack = new ArrayStack<>();
+//        Stack<Integer> arrayStack = new LinkedListStack<>();
 //
 //        arrayStack.push(4);
 //        arrayStack.push(9);
@@ -31,16 +44,26 @@ public class HelloWord {
 //        arrayStack.pop();
 //        System.out.println(arrayStack);
 
-        Queue<Integer> queue = new LoopQueue<>();
+        Queue<Integer> queue = new LinkekListQueue<>();
 
-        for (int i = 1; i < 20; i++) {
+        for (int i = 0; i < 20; i++) {
             queue.enqueue(i);
-            if (i%3==0){
-                System.out.println(queue.dequeue());
+            System.out.println(queue);
+            if (i % 3 == 2) {
+                queue.dequeue();
                 System.out.println(queue);
             }
+
         }
-        System.out.println(queue);
+//        LinkList<Integer> linkList  = new LinkList<>();
+//        for (int i = 0; i < 10; i++) {
+//            linkList.addFirst(i);
+//            System.out.println(linkList);
+//        }
+//        linkList.add(0,66);
+//        System.out.println(linkList);
+//        linkList.remove(0);
+//        System.out.println(linkList);
 
 
     }

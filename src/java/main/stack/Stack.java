@@ -1,6 +1,7 @@
-package main;
+package main.stack;
 
 /**
+ * 栈
  * Created with IDEA
  * Author: LuoHengYi
  * Date: 2019/10/29

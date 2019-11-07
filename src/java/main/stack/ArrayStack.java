@@ -1,4 +1,6 @@
-package main;
+package main.stack;
+
+import main.array.Array;
 
 /**
  * Created with IDEA

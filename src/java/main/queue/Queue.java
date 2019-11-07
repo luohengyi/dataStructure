@@ -1,6 +1,7 @@
-package main;
+package main.queue;
 
 /**
+ * 队列
  * Created with IDEA
  * Author: LuoHengYi
  * Date: 2019/10/30

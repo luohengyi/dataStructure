@@ -1,6 +1,10 @@
-package main;
+package main.queue;
+
+import main.array.Array;
+import main.queue.Queue;
 
 /**
+ * 数组队列
  * Created with IDEA
  * Author: LuoHengYi
  * Date: 2019/10/30
