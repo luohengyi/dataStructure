@@ -7,28 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/main/stack/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附件1-国网四川信通公司2019年业务平台中间件运维清单.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/META-INF/arithmetic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/LoopQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/HelloWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/example/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/example/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +126,8 @@
       <workItem from="1572923128433" duration="4000" />
       <workItem from="1572935719033" duration="4611000" />
       <workItem from="1573000553083" duration="1322000" />
+      <workItem from="1573107549429" duration="1493000" />
+      <workItem from="1573779146010" duration="1851000" />
     </task>
     <servers />
   </component>

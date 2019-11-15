@@ -2,6 +2,9 @@ package example;
 
 import java.util.Stack;
 
+/**
+ * 判断字符串中的括号是否正确关闭
+ */
 public class Solution {
 
 
