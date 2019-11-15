@@ -1,6 +1,7 @@
 package main.chain;
 
 /**
+ * 单向连标
  * Created with IDEA
  * Author: LuoHengYi
  * Date: 2019/11/2

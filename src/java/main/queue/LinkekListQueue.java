@@ -3,7 +3,7 @@ package main.queue;
 import main.chain.LinkList;
 
 /**
- * 双向连标
+ * 双向链表
  * Created with IDEA
  * Author: LuoHengYi
  * Date: 2019/11/4
@@ -45,11 +45,13 @@ public class LinkekListQueue<E> implements Queue<E> {
     //入队操作
     @Override
     public void enqueue(E e) {
+        //首次入队
         if (null == tail) {
             tail = new Node(e);
             head = tail;
         } else {
             tail.next = new Node(e);
+            //指针指向最后一个节点
             tail = tail.next;
         }
         size++;

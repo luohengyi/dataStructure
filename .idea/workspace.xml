@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/leetcode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/example/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/example/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNodeByHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/example/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/example/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/queue/LinkekListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/queue/LinkekListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +131,7 @@
       <workItem from="1572935719033" duration="4611000" />
       <workItem from="1573000553083" duration="1322000" />
       <workItem from="1573107549429" duration="1493000" />
-      <workItem from="1573779146010" duration="1851000" />
+      <workItem from="1573779146010" duration="3597000" />
     </task>
     <servers />
   </component>

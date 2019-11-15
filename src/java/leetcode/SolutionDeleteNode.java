@@ -8,20 +8,12 @@ package leetcode;
  * Time: 2:28 下午
  */
 
-public class Solution {
+public class SolutionDeleteNode {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public ListNode deleteNode(ListNode head, int val) {
 
-        // 处理如果头节点就是 需要删除的val
+        // 处理如果头节点就是 需要删除的val,单独处理，如果想省略，应该使用虚拟头节点
         while (head != null && head.val == val) {
             ListNode delNode = head;
             head = head.next;
