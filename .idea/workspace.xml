@@ -7,20 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNodeByHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/example/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/example/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/example/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/queue/LinkekListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/queue/LinkekListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/queue/LinkekListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="168" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWord">
+  <component name="RunManager" selected="Application.SolutionDeleteNode">
     <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.HelloWord" />
       <module name="arithmetic" />
@@ -88,8 +101,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionDeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SolutionDeleteNode" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Sum" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolutionDeleteNode" />
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.HelloWord" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -131,7 +172,7 @@
       <workItem from="1572935719033" duration="4611000" />
       <workItem from="1573000553083" duration="1322000" />
       <workItem from="1573107549429" duration="1493000" />
-      <workItem from="1573779146010" duration="3597000" />
+      <workItem from="1573779146010" duration="8764000" />
     </task>
     <servers />
   </component>
@@ -171,11 +212,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="data" />
-        <watch expression="i" />
-      </configuration>
-    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dataStructure$SolutionDeleteNode.ic" NAME="SolutionDeleteNode Coverage Results" MODIFIED="1573798000488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>

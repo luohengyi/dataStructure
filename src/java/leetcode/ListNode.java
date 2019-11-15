@@ -7,9 +7,17 @@ package leetcode;
  * Time: 2:28 下午
  */
 public class ListNode {
-    int val;
+    Integer val;
     ListNode next;
     ListNode(int x) {
         val = x;
+    }
+
+    @Override
+    public String toString() {
+        if (next==null){
+            return val+"";
+        }
+        return val+"->"+next.toString();
     }
 }
