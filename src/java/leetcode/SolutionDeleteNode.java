@@ -17,7 +17,6 @@ public class SolutionDeleteNode {
 
 
     public static void recursiveDelete(ListNode head, int val) {
-
         if (null == head.next) {
             return;
         }
@@ -31,9 +30,32 @@ public class SolutionDeleteNode {
             //指针向下移动
             prev = prev.next;
         }
-        recursiveDelete(prev,val);
-
+        recursiveDelete(prev, val);
     }
+
+    public static ListNode recursiveDelete2(ListNode head, int val) {
+        if (null == head.next) {
+            return null;
+        }
+        ListNode res = recursiveDelete2(head.next, val);
+        if (head.val == val)
+            //返回下级元素，从而删除当前元素
+            return res;
+        else {
+            //head.next携带的是原来没有删除val元素的链表，替换为 res 已经删除val元素的链表
+            head.next = res;
+            return head;
+        }
+    }
+
+    public static ListNode recursiveDelete3(ListNode head, int val) {
+        if (null == head) {
+            return null;
+        }
+        head.next = recursiveDelete2(head.next, val);
+        return head.val == val ? head.next : head;
+    }
+
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(0);
@@ -45,7 +67,7 @@ public class SolutionDeleteNode {
         next2.next = next3;
 
         System.out.println(listNode);
-        System.out.println(recursiveDelete1(listNode, 3));
+        System.out.println(recursiveDelete2(listNode, 3));
     }
 
     public ListNode deleteNode(ListNode head, int val) {
