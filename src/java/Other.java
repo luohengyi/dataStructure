@@ -32,7 +32,7 @@ public class Other {
         }
 
         float Max = 70, Min = 45.0f;
-        for (int i = 0; i < 19; i++) {
+        for (int i = 0; i < 21; i++) {
             BigDecimal db = new BigDecimal(Math.random() * (Max - Min) + Min);
             String cpu = db.setScale(2, BigDecimal.ROUND_HALF_UP)// 保留30位小数并四舍五入
                     .toString();

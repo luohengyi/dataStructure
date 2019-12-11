@@ -1,20 +1,8 @@
 package main;
 
-import main.queue.LinkekListQueue;
-import main.queue.Queue;
-import main.stack.LinkedListStack;
-import main.stack.Stack;
 import main.tree.bst.Bst;
-import org.apache.poi.hssf.usermodel.HSSFRow;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
-import java.awt.print.Book;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -66,13 +54,23 @@ public class HelloWord {
 //        System.out.println(linkList);
 //        linkList.remove(0);
 //        System.out.println(linkList);
+
         Random r = new Random();
         Bst<Integer> bst = new Bst<>();
         for (int i = 0; i < 10; i++) {
-            bst.add(i);
+            bst.add(r.nextInt(100));
         }
-//        System.out.println(bst.preOrderList());
-        bst.preOrderNR();
+        List<Integer> integers = bst.preOrderList();
+        System.out.println(bst.preOrderList());
+        for (int i = 0; i < 10; i++) {
+            int i1 = r.nextInt(integers.size());
+            bst.remove(integers.get(i1));
+            System.out.println(integers.get(i1));
+            System.out.println(bst.preOrderList());
+            integers=bst.preOrderList();
+        }
+
+
     }
 
 

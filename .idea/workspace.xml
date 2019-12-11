@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/main/tree/bst/Bst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/Other.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/Other.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/SolutionDeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Other.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/main/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/tree/bst/Bst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/tree/bst/Bst.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWord">
+  <component name="RunManager" selected="Application.Other">
     <configuration name="Bst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.tree.bst.Bst" />
       <module name="arithmetic" />
@@ -104,15 +105,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.Solution" />
+    <configuration name="Other" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Other" />
       <module name="arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Other" />
         <item itemvalue="Application.HelloWord" />
         <item itemvalue="Application.Bst" />
         <item itemvalue="Application.SolutionDeleteNode" />
         <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +195,16 @@
       <workItem from="1574234548657" duration="9000" />
       <workItem from="1574662656257" duration="10084000" />
       <workItem from="1574732289945" duration="992000" />
-      <workItem from="1574734428149" duration="6371000" />
+      <workItem from="1574734428149" duration="8153000" />
+      <workItem from="1574755307143" duration="2927000" />
+      <workItem from="1574821034117" duration="10239000" />
+      <workItem from="1575186149565" duration="1202000" />
+      <workItem from="1575246905259" duration="14000" />
+      <workItem from="1575333734114" duration="4464000" />
+      <workItem from="1575341790154" duration="532000" />
+      <workItem from="1575342499328" duration="3758000" />
+      <workItem from="1575964992281" duration="610000" />
+      <workItem from="1576029278102" duration="1728000" />
     </task>
     <servers />
   </component>
@@ -223,11 +227,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/main/array/Array.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/java/main/queue/LoopQueue.java</url>
           <line>70</line>

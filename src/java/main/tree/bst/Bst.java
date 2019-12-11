@@ -1,8 +1,6 @@
 package main.tree.bst;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Created with IDEA
@@ -40,6 +38,11 @@ public class Bst<E extends Comparable<E>> {
 
     //添加入口
     public void add(E e) {
+//        if (root==null){
+//            root = new Node(e);
+//            size++;
+//        }else
+//            add(root, e);
         root = addMy(root, e);
     }
 
@@ -85,7 +88,8 @@ public class Bst<E extends Comparable<E>> {
     }
 
     /**
-     * 使用栈便利树
+     * 使用栈便利树，深度便利依照某个节点一直访问到最下面的节点
+     * 先进先出的原因
      */
     public void preOrderNR() {
         Stack<Node> stack = new Stack<>();
@@ -100,7 +104,129 @@ public class Bst<E extends Comparable<E>> {
         }
     }
 
+    /**
+     * 层序便利，一层一层的便利
+     * 先进后出的原因
+     */
+    public void levelOrder() {
+        Queue<Node> queue = new ArrayDeque<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node poll = queue.poll();
+            System.out.println(poll.e);
+            if (null != poll.left)
+                queue.add(poll.left);
+            if (null != poll.right)
+                queue.add(poll.right);
+        }
+    }
 
+    /**
+     * 删除最小元素
+     *
+     * @return
+     */
+    public E removeMin() {
+        E e = minimu(root).e;
+        root = removeMin(root);
+        return e;
+    }
+
+    private Node minimu(Node node) {
+        if (null == node.left)
+            return node;
+        return minimu(node.left);
+    }
+
+    private Node removeMin(Node node) {
+        if (null == node.left) {
+            Node right = node.right;
+            node.right = null;
+            size--;
+            return right;
+        }
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    /**
+     * 删除最大元素
+     *
+     * @return
+     */
+    public E removeMax() {
+        E e = maxmu(root).e;
+        root = removeMax(root);
+        return e;
+    }
+
+    private Node maxmu(Node node) {
+        if (null == node.right)
+            return node;
+        return minimu(node.right);
+    }
+
+    private Node removeMax(Node node) {
+        if (null == node.right) {
+            Node right = node.left;
+            node.left = null;
+            size--;
+            return right;
+        }
+        node.right = removeMin(node.right);
+        return node;
+    }
+
+    /**
+     * 删除元素中的任意元素
+     *
+     * @param e 需要删除的元素
+     */
+    public void remove(E e) {
+        root = remove(root, e);
+    }
+
+    private Node remove(Node node, E e) {
+        if (null == node)
+            return null;
+        if (e.compareTo(node.e) == 0) {
+
+            //待删除的节点左子树为空
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                return rightNode;
+            }
+            //待删除的节点右节点为空
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = node;
+                return leftNode;
+            }
+            //待删除的节点左右都不为空,找到后继节点顶替该节点。后继节点为大于该节点最接近的一个节点
+            //后继节点为右节点的最小节点
+            Node successor = minimu(node.right);
+            //后继节点的右节点是->待删除的节点的右节点删除最小节点后的根节点
+            //就是 待删除的节点的右节点删除最小值后的那个树
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+            node.left = node.right = null;
+            size--;
+            return successor;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+        } else {
+            node.left = remove(node.left, e);
+        }
+        return node;
+    }
+
+
+    /**
+     * 二叉树排序
+     *
+     * @return List
+     */
     public List<E> preOrderList() {
         return preOrderList(root);
     }
@@ -121,7 +247,13 @@ public class Bst<E extends Comparable<E>> {
         return objects;
     }
 
-
+    /**
+     * 查询某个元素是否存在
+     *
+     * @param node node
+     * @param e    e
+     * @return boolean
+     */
     private boolean contains(Node node, E e) {
         if (null == node) {
             return false;
@@ -134,14 +266,20 @@ public class Bst<E extends Comparable<E>> {
         }
     }
 
-    //我自己的
+    /**
+     * 查询某个元素是否存在
+     *
+     * @param node node
+     * @param e    e
+     * @return boolean
+     */
     private boolean containsMy(Node node, E e) {
         if (null == node) {
             return false;
         } else if (e.compareTo(node.e) == 0) {
             return true;
         }
-        return contains(node.left, e) || contains(node.right, e);
+        return containsMy(node.left, e) || containsMy(node.right, e);
     }
 
     private void add(Node node, E e) {
@@ -149,9 +287,11 @@ public class Bst<E extends Comparable<E>> {
             return;
         } else if (e.compareTo(node.e) < 0 && node.left == null) {
             node.left = new Node(e);
+            size++;
             return;
         } else if (e.compareTo(node.e) > 0 && node.right == null) {
             node.right = new Node(e);
+            size++;
             return;
         }
 
@@ -166,6 +306,8 @@ public class Bst<E extends Comparable<E>> {
             size++;
             return new Node(e);
         }
+        if (e.compareTo(node.e) == 0)
+            return null;
         if (e.compareTo(node.e) < 0)
             node.left = addMy(node.left, e);
         else
