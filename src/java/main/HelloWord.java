@@ -1,10 +1,12 @@
 package main;
 
-import main.tree.bst.Bst;
+import main.set.BSTSet;
+import main.set.FileOperation;
+import main.set.LinkedListSet;
+import main.set.Set;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Random;
+import java.util.ArrayList;
 
 /**
  * Created with IDEA
@@ -55,21 +57,20 @@ public class HelloWord {
 //        linkList.remove(0);
 //        System.out.println(linkList);
 
-        Random r = new Random();
-        Bst<Integer> bst = new Bst<>();
-        for (int i = 0; i < 10; i++) {
-            bst.add(r.nextInt(100));
-        }
-        List<Integer> integers = bst.preOrderList();
-        System.out.println(bst.preOrderList());
-        for (int i = 0; i < 10; i++) {
-            int i1 = r.nextInt(integers.size());
-            bst.remove(integers.get(i1));
-            System.out.println(integers.get(i1));
-            System.out.println(bst.preOrderList());
-            integers=bst.preOrderList();
-        }
-
+//        Random r = new Random();
+//        Bst<Integer> bst = new Bst<>();
+//        for (int i = 0; i < 10; i++) {
+//            bst.add(r.nextInt(100));
+//        }
+//        List<Integer> integers = bst.preOrderList();
+//        System.out.println(bst.preOrderList());
+//        for (int i = 0; i < 10; i++) {
+//            int i1 = r.nextInt(integers.size());
+//            bst.remove(integers.get(i1));
+//            System.out.println(integers.get(i1));
+//            System.out.println(bst.preOrderList());
+//            integers=bst.preOrderList();
+//        }
 
     }
 

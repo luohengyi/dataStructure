@@ -7,10 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/Other.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/Other.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/set/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/set/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/set/LinkedListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/set/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/pride-and-prejudice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Other.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/chain/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/example/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/example/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/main/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/chain/LinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/main/tree/bst/Bst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/tree/bst/Bst.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/java/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -63,13 +70,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource" />
       <recent name="$PROJECT_DIR$/src/java/test" />
       <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Other">
+  <component name="RunManager" selected="Application.HelloWord">
     <configuration name="Bst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.tree.bst.Bst" />
       <module name="arithmetic" />
@@ -140,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Other" />
         <item itemvalue="Application.HelloWord" />
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Other" />
         <item itemvalue="Application.Bst" />
         <item itemvalue="Application.SolutionDeleteNode" />
-        <item itemvalue="Application.Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +214,12 @@
       <workItem from="1575341790154" duration="532000" />
       <workItem from="1575342499328" duration="3758000" />
       <workItem from="1575964992281" duration="610000" />
-      <workItem from="1576029278102" duration="1728000" />
+      <workItem from="1576029278102" duration="11997000" />
+      <workItem from="1576114589140" duration="339000" />
+      <workItem from="1576151802362" duration="39000" />
+      <workItem from="1576197564240" duration="595000" />
+      <workItem from="1576199402038" duration="1076000" />
+      <workItem from="1576201254025" duration="1436000" />
     </task>
     <servers />
   </component>

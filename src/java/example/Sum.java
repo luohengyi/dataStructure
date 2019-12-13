@@ -20,6 +20,7 @@ public class Sum {
            return 0;
        return arr[l]+sum(arr,l+1);
     }
+
     public static int sum(int[] arr){
         return sum(arr,0);
     }
@@ -29,4 +30,5 @@ public class Sum {
         int sum = sum(i);
         System.out.println(sum);
     }
+
 }

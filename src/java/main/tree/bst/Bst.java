@@ -306,11 +306,9 @@ public class Bst<E extends Comparable<E>> {
             size++;
             return new Node(e);
         }
-        if (e.compareTo(node.e) == 0)
-            return null;
         if (e.compareTo(node.e) < 0)
             node.left = addMy(node.left, e);
-        else
+        else if (e.compareTo(node.e) > 0)
             node.right = addMy(node.right, e);
         return node;
     }
