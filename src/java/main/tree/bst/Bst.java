@@ -268,7 +268,6 @@ public class Bst<E extends Comparable<E>> {
 
     /**
      * 查询某个元素是否存在
-     *
      * @param node node
      * @param e    e
      * @return boolean
