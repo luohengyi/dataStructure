@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3432224-0c04-428d-9f85-31ffee234291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/main/heep/MaxHeep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/main/map/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/main/map/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/main/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/main/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/main/bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/main/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/HelloWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/main/heep/MaxHeep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/heep/MaxHeep.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -229,7 +223,7 @@
       <workItem from="1576475853540" duration="5025000" />
       <workItem from="1576630299272" duration="1536000" />
       <workItem from="1577020510747" duration="1357000" />
-      <workItem from="1578232773305" duration="5421000" />
+      <workItem from="1578232773305" duration="8668000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,7 @@ import main.set.Set;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.PriorityQueue;
 
 /**
  * Created with IDEA
@@ -88,6 +89,8 @@ public class HelloWord {
         System.out.println(data.get("pride"));
         System.out.println(data.get("prejudice"));
         System.out.println(data.getSize());
+
+//        new PriorityQueue<>()
     }
 
 
