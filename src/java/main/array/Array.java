@@ -131,6 +131,18 @@ public class Array<E> {
             remove(index);
     }
 
+    /**
+     * 交换2个下标的元素
+     * @param i 下标
+     * @param j 下标
+     */
+    public void swap(int i ,int j){
+        if (i<0 || i>=size || j<0 || j>=0)
+            throw new IllegalArgumentException(" error index is Illege ");
+        E e = data[i];
+        data[i] = data[j];
+        data[j] = e;
+    }
     @Override
     public String toString() {
         String back = String.format("Array: size=%d , capacity = %d", size, data.length) +

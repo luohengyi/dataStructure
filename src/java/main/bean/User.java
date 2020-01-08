@@ -1,5 +1,7 @@
 package main.bean;
 
+import java.util.HashMap;
+
 /**
  * Created with IDEA
  * Author: LuoHengYi
@@ -17,6 +19,7 @@ public class User {
 
     @Override
     public String toString() {
+        HashMap hashMap = new HashMap();
         return "User{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +

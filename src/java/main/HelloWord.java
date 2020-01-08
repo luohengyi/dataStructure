@@ -1,5 +1,8 @@
 package main;
 
+import main.map.BSTMap;
+import main.map.LinkedListMap;
+import main.map.Map;
 import main.set.BSTSet;
 import main.set.FileOperation;
 import main.set.LinkedListSet;
@@ -7,6 +10,7 @@ import main.set.Set;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created with IDEA
@@ -71,7 +75,19 @@ public class HelloWord {
 //            System.out.println(bst.preOrderList());
 //            integers=bst.preOrderList();
 //        }
-
+        ArrayList<String> arrayList = new ArrayList<>();
+        FileOperation.readFile("/Users/luohengyi/java/IdeaProjects/imooc/dataStructure/src/java/pride-and-prejudice.txt", arrayList);
+        Map<String, Integer> data = new BSTMap<>();
+        for (String s : arrayList) {
+            if (data.contains(s)) {
+                data.set(s, data.get(s)+1);
+            } else {
+               data.add(s,1);
+            }
+        }
+        System.out.println(data.get("pride"));
+        System.out.println(data.get("prejudice"));
+        System.out.println(data.getSize());
     }
 
 
